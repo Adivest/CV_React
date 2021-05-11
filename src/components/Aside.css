@@ -1,0 +1,49 @@
+#aside {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(8, 76, 65);
+	color: white;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding-top: 50px;
+}
+.subtitle {
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+.headers {
+	color: white;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.line {
+	margin-top: 25px;
+	margin-left: 125px;
+	width: 30px;
+	height: 3px;
+	background-color: rgb(54, 112, 101);
+}
+.profileName {
+	font-size: 32px;
+	font-weight: 700;
+}
+.block {
+	margin-left: 15px;
+}
+a {
+	color: white;
+	text-decoration: underline;
+}
+.show-message {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+.message {
+	color: white;
+	font-size: 2rem;
+	background-color: rgb(8, 76, 65);
+}

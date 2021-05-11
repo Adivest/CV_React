@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Aside from './components/Aside'
+import Main from './components/Main'
+import 'bulma/css/bulma.css'
+import './components/Aside.css'
+import './components/Main.css'
+
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<div className='container is-fluid'>
+				<div className='columns'>
+					<div className='column is-1'></div>
+					<div className='column is-3 '>
+						<Aside />
+					</div>
+
+					<div className='column is-7 '>
+						<Main />
+					</div>
+					<div className='column is-1 '></div>
+				</div>
+			</div>
+		</div>
+	)
 }
 
-export default App;
+export default App
